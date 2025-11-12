@@ -20,7 +20,7 @@
 
 ## Technologie i biblioteki
 
-- C++
+- **C++**
 - **SFML** – obsługa okna, zdarzeń i kontekstu OpenGL
 - **OpenGL** – renderowanie 3D, oświetlenie i tekstury
 - **STB_Image** – ładowanie obrazów jako tekstury
@@ -28,17 +28,36 @@
 
 ---
 
-## Uruchomienie
+## Uruchomienie (Windows)
 
 1. Ściągnięcie oraz rozpakowanie pliku .rar
 2. Uruchomienie main.sln
 3. Zbudowanie projektu w Visual Studio oraz uruchomienie
+
+## Uruchomienie (Linux)
+1. Ściągnięcie oraz rozpakowanie pliku .rar
+2. Wejście w katalog build
+3. Użycie komend `cmake ..` oraz `cmake --build .`
+4. Uruchomienie aplikacji za pomocą ./Kominek3D
+
+### Wymagania:
+Zainstalowanie poniższych bibliotek przy pomocy np. sudo apt install : 
+- g++                --KOMPILATOR--
+- build-essential    --PRZYDATNE_NARZĘDZIA--
+- libsfml-dev        --SFML--
+- libgl1-mesa-dev    --OPENGL--
+- libglu1-mesa-dev   --GLU--
+- cmake              --CMAKE--
+### Przydatne:
+- git - jeżeli chcesz użyć `git clone https://github.com/Sebaz122/projekt_grafika_3D`aby skopiować repozytorium w konsolii
+- unar - do rozpakowania pliku .rar - `unar projekt_grafika_3D.rar`
 
 
 ## Screenshoty
 
 | ![Sterowanie](controls.png) |
 |:-------------------------:|
+
 
 | ![Demo](demo_gif.gif) |
 |:-------------------------:|
