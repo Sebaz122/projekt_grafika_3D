@@ -37,4 +37,10 @@
 
 ## Screenshoty
 
+| ![Sterowanie](controls.png) |
+|:-------------------------:|
+
+| ![Demo](demo_gif.gif) |
+|:-------------------------:|
+
 
